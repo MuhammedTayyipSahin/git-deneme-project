@@ -14,7 +14,7 @@ public class MyController {
     public String postUser() {
         return "New User";
     }
-
+    //silme fonksiyonu
     @DeleteMapping
     public void deleteUser() {
         System.out.println("User was deleted");
