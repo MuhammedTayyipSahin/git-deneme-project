@@ -1,5 +1,6 @@
 package com.first.project.hello.gitdenemeproject;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +10,11 @@ public class MyController {
 
     @GetMapping
     public String getUser() {
+        return "New User";
+    }
+
+    @PostMapping
+    public String postUser() {
         return "New User";
     }
 
