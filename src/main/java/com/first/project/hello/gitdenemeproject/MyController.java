@@ -15,8 +15,8 @@ public class MyController {
         return "New User";
     }
 
-    @PutMapping
-    public String putUser() {
+    @DeleteMapping
+    public String deleteUser() {
         return "New User";
     }
 
