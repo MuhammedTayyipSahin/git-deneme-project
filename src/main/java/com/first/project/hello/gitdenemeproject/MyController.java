@@ -16,8 +16,8 @@ public class MyController {
     }
 
     @DeleteMapping
-    public String deleteUser() {
-        return "New User";
+    public void deleteUser() {
+        System.out.println("User was deleted");
     }
 
 }
